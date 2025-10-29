@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chapter 2</title>
+</head>
+<body>
+    <h1>chapter 2 Practice</h1>
+    <?php
+    
+
+
+    ?>
+    
+</body>
+</html>
