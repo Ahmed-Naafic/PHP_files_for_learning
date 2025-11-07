@@ -15,7 +15,7 @@
                 "ahmednor.so/${fileBasename}",
                 "-t",
                 "."
-            ],
+            ], 
             "cwd": "${workspaceRoot}/.",
             "serverReadyAction": {
                 "action": "openExternally"

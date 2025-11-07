@@ -7,9 +7,5 @@
 </head>
 <body>
     
-
-
-<p>php.ini</p>
-
 </body>
 </html>

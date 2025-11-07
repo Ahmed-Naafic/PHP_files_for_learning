@@ -6,10 +6,17 @@
     <title>Document</title>
 </head>
 <body>
+
+<?php
+
+// If statement 
+$a=2;
+$b=3;
+//  check if a is greater than b 
+if($a>$b)
+    echo " $a is greater than $b"
+
+?>
     
-
-
-<p>php.ini</p>
-
 </body>
 </html>

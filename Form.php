@@ -6,10 +6,13 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <h1>Chapter six Getting data from client </h1>
+    <form action="" method="POST">
+        
+    </form>
 
+    <?php 
 
-<p>php.ini</p>
-
+    ?>
 </body>
 </html>
