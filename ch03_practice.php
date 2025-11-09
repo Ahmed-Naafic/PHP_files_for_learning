@@ -58,6 +58,31 @@ else if($marks<0)
 else 
     echo " <br>invalid input";
 
+echo "<br> 1. Write a program that compares three integer numbers then specifies and prints the greatest
+and the smallest one (do not use built-in function such as min or max).";
+
+$a=9;
+$b=4;
+$c=5;
+
+$greatest=$a;
+$smallest=$a;
+
+if($b>$greatest)
+    $greatest=$b;
+if($c>$greatest)
+    $greatest=$c;
+if($b<$smallest)
+    $smallest=$b;
+if($c<$smallest)
+    $smallest=$c;
+
+
+
+echo " <br>the greatest number is $greatest";
+echo " <br>the greatest number is $smallest";
+
+
 // switch statemnts
 // 1. Weekday Finder
 $day=4;
@@ -135,6 +160,66 @@ while($i<=10){
     
 }
 echo "<br> the sum of the even numbers from 1 to 10 is $sum ";
+
+
+echo "<br> Write a program to find all factors of a positive integer number (for example, factors of 42 are:
+1, 2, 3, 6, 7, 14, 21 and 42) using while loop. ";
+$i=1;
+$num=42;
+
+while($i<=$num){
+   if( $num%$i==0)
+    echo " $i ,";
+
+    $i++;
+}
+
+echo "<br> 6. Write a program that prints whether the number is a prime (whole number greater than 1 which
+is exactly divisible by itself and 1 but no other number) or non-prime using while loop.";
+
+$i=2;
+$num=39;
+$isPrime=true;
+
+if($num<=1)
+    $isPrime=false;
+
+while($i<=$num/2){
+    if($num%$i==0)
+        $isPrime=false;
+    
+    $i++;
+}
+
+if($isPrime)
+    echo "<br>the number is a prime number";
+else 
+    echo "<br>the number is not a prime number";
+
+
+// findind LCM of two Numbers using While loop
+$i=2;
+$num1=12;
+$num2=5;
+
+while ($i<=$num1*$num2){
+    if($i%$num1==0 & $i%$num2==0){
+        echo "<br>the lcm of $num1 and $num2 is $i";
+      break;
+    }
+    $i++;
+}
+
+// multiplication using while loop
+$i=1;
+
+while($i<=12){
+    echo "<br> 12*$i";
+
+    $i++;
+}
+
+ 
 
 ?>
     
