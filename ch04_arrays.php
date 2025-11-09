@@ -57,7 +57,7 @@
         foreach($person as $v){
             echo "$v , ";
         }
-          // Getting Both Keys and Values
+          // Getting Both Keys and Values    
          echo "the keys and the values <br>";
         foreach ($person as $key=>$value){
             echo "<pre>";
