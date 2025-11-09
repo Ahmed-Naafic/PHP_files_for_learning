@@ -31,7 +31,7 @@
         echo "  $names[$i] , ";
      }
 
-     // printing arrays with foreach loop 
+     // printing arrays with foreach loop    
 
      $numbers=array(2,3,-4,9,20,23);
      echo " <br>the numbers are :<br>";
