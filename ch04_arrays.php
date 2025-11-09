@@ -65,7 +65,7 @@
             echo "</pre>";
         }
 
-        //Adding (Summing) the Elements of One Array
+        //Adding (Summing) the Elements of One Array   
         $numbers = array(26, 11, 13, -4, 14, 17, 5, 52, 7, 9, 21, 32, 2, 4, 5);
         $total=0;
         foreach($numbers as $n){
