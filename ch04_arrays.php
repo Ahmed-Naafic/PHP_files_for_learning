@@ -72,7 +72,7 @@
             $total+=$n;
         }
 
-        echo "<br>the total numbers are : $total ";
+        echo "<br>the total numbers are : $total ";    
 
               // adding two arrays
         $array1 = array(1, 2, 3, 4, 5);
