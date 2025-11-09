@@ -10,7 +10,7 @@
     <?php
     // declare array
     $array=array("ahmed",25,"Jungale", true);
-    echo "$array[0]";
+    echo "$array[0]";    
 
     // display array details using var_dump()
       echo "<pre>";
