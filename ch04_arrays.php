@@ -24,7 +24,7 @@
      echo"<br>$array[6] <br/>";
 
 
-     // printing array elements using for loop
+     // printing array elements using for loop      
      $names=array("ahmed", "mohamed", "fatima", "husein");
      echo "Array elements are:<br>";
      for($i=0;  $i<count($names); $i++){
