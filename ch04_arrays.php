@@ -17,7 +17,7 @@
          var_dump($array);
       echo"</pre>";
 
-     // manually set index 
+     // manually set index         
      
      $array= array(4=>"mohamed", 6=>26, 9=>"yaqshid");
 
