@@ -39,7 +39,7 @@
          echo " $v , ";
      }
 
-     // see what's inside an array using print_r() 
+     // see what's inside an array using print_r()     
 
      echo "<pre>";
      print_r($numbers);
