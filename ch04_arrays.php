@@ -87,7 +87,7 @@
 
         foreach ($array3 as $a3){
             echo " $a3 , ";
-        }
+        };
 
 
 
@@ -101,7 +101,15 @@
             'age' => 25,
             'sex' => "male"
 
-        )
+        );
+
+        // accessing and printing associative arrays using 
+           // 1) print only favlues
+        echo "<br> Associative array elements are:<br>";
+
+        foreach ($assocc as $v){
+            echo "$v , ";
+        }
     ?>
     
 </body>
