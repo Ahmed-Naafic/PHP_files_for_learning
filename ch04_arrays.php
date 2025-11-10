@@ -187,6 +187,15 @@
         }
          echo "</pre>";
     }
+
+
+    // accessing the keys and values of elements in two-dimensional array
+
+    foreach($products as $key1=>$items){
+        foreach($items as $key2=>$v){
+            echo "[$key1][$key2]: $v , <br>";
+        }
+    }
     ?>
     
 </body>
