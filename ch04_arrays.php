@@ -153,6 +153,9 @@
         }
          echo " </pre>";
      }
+
+     //access one element 
+    echo $students[0][2];
     ?>
     
 </body>
