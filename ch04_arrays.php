@@ -156,6 +156,24 @@
 
      //access one element 
     echo $students[0][2];
+
+
+
+
+    // Two-Dimensional Associative array
+
+    $products= array(
+        'paper'=>array(
+            'copier'=>"Copier & multi-purpose",
+            'inkjet'=> "InkjetPrinter",
+            'laser' => "laser Printer"
+        ),
+        'misc' =>array(
+            'tape'=> "Sticky Tape",
+            'glue' => "Adhesive",
+            'Clips' => "PaperClips"
+        )
+    )
     ?>
     
 </body>
