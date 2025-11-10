@@ -88,6 +88,20 @@
         foreach ($array3 as $a3){
             echo " $a3 , ";
         }
+
+
+
+
+        // associative arrays 
+        //declare associative arrays
+
+        $assocc = array(
+            'name' => "Ahmed",
+            'nickname' => "Naafic",
+            'age' => 25,
+            'sex' => "male"
+
+        )
     ?>
     
 </body>
