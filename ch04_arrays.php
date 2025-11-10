@@ -130,7 +130,18 @@
         array("ahmed", 2000, "yaqshid", "619690404"),
         array("Mohamud", 1986, "shangani", "619565223"),
         array("Ali", 1990, "kaxda", "617898976"),
-     )
+     );
+
+     // accessing multidimensional array using nested foreach loop
+     // printing only values
+     echo "the students list are: <br> ";
+     foreach($students as $s){
+      echo " <pre>";
+          foreach ($s as $v){
+            echo "$v , ";
+          }
+     echo " <pre>";
+     }
     ?>
     
 </body>
