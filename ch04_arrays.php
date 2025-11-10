@@ -142,6 +142,17 @@
           }
      echo " <pre>";
      }
+
+     //printing keys and values 
+
+     echo "the keys and their values:<br>";
+     foreach ($students as $key1 => $s){
+         echo " <pre>";
+        foreach ($s as $key2 => $v){
+            echo "[$key1, $key2] : $v ,";
+        }
+         echo " </pre>";
+     }
     ?>
     
 </body>
