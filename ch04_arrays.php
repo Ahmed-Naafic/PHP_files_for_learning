@@ -116,6 +116,21 @@
           foreach ($assocc as $keys => $values){
             echo " [$keys]:$values, <br>";
           }
+
+
+
+
+
+
+
+    // Multi-Dimensional arrays
+     // declare Multi-Dimensional Array
+
+     $students = array(
+        array("ahmed", 2000, "yaqshid", "619690404"),
+        array("Mohamud", 1986, "shangani", "619565223"),
+        array("Ali", 1990, "kaxda", "617898976"),
+     )
     ?>
     
 </body>
