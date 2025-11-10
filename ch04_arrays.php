@@ -173,7 +173,20 @@
             'glue' => "Adhesive",
             'Clips' => "PaperClips"
         )
-    )
+        );
+
+        echo "<br>";
+
+    // accessing one element in Two-Dimensional Array
+        echo $products['paper']['laser'];
+    // accessing the values of all elements in two-dimensional associative array
+    foreach($products as $items){
+        echo "<pre>";
+        foreach($items as $v){
+            echo"$v , ";
+        }
+         echo "</pre>";
+    }
     ?>
     
 </body>
