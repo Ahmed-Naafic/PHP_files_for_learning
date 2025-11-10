@@ -110,6 +110,12 @@
         foreach ($assocc as $v){
             echo "$v , ";
         }
+
+          // 2) printing keys and values
+         echo "<br> Associative array elements keys:values<br>";
+          foreach ($assocc as $keys => $values){
+            echo " [$keys]:$values, <br>";
+          }
     ?>
     
 </body>
