@@ -17,11 +17,16 @@ function writeMsg() {
 }
 
 writeMsg();
-// factorial numbers
+
+
+
+
+
+// factorial of a  numbers
 
 function factorial($a){
     $fact=1;
-    for($i=3; $i<=$a; $i++)
+    for($i=2; $i<=$a; $i++)
         $fact*=$i;
     echo " the factorial of $a is: $fact";
 }
