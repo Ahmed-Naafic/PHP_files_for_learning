@@ -13,18 +13,17 @@
 
 //function definition
 function writeMsg() {
-    echo"hello world";
+    echo"hello world <br>";
 }
 
+writeMsg();
 // factorial numbers
 
 function factorial($a){
-    $fact=0;
-    $i=1;
-    for($i=1; $i<=$a; $i++){  
-       $fact*=$i;
-    }
-    echo "the factorial of $a is $fact";
+    $fact=1;
+    for($i=3; $i<=$a; $i++)
+        $fact*=$i;
+    echo " the factorial of $a is: $fact";
 }
 
 factorial(5)
