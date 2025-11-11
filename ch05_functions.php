@@ -19,6 +19,15 @@ function writeMsg() {
 writeMsg();
 
 
+// a function with argument
+
+function greet($name){
+    echo " <br>hello, $name!";
+}
+ 
+greet("Ahmed ");
+
+
 
 
 
@@ -28,7 +37,7 @@ function factorial($a){
     $fact=1;
     for($i=2; $i<=$a; $i++)
         $fact*=$i;
-    echo " the factorial of $a is: $fact";
+    echo " <br>the factorial of $a is: $fact";
 }
 
 factorial(5)
